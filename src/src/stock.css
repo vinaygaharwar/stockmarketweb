@@ -1,0 +1,65 @@
+.stock-container {
+  /* display: flex; */
+  justify-content: center;
+  
+}
+
+.stock-row {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: start; */
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 900px;
+  justify-content: space-between;
+}
+
+.stock {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+
+  
+}
+
+.stock h1 {
+  font-size: 16px;
+  width: 150px;
+}
+
+.stock img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.stock-symbol {
+  text-transform: uppercase;
+  margin-left:160px;
+}
+
+.stock-data {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.stock-price {
+  width: 110px;
+}
+
+.stock-volume {
+  width: 155px;
+}
+
+.stock-marketcap {
+  width: 230px;
+  margin-left: 40px;
+}
+
+.stock-percent {
+  width: 100px;
+}
+
